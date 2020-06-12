@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODEPRO FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <form name="proform">
+        <div class="container">
+            <div class="main">
+                <div class="submain">
+                    <div class="logo"><img src="/assets/logo.png"></div>
+                    <label class="label">CODEPRO</label>
+                    <!-- <a href="#" class="login" onClick="myFunction()" id="page1">Log In</a> -->
+                    <!-- <div class="signupBox"></div> -->
+                    <!-- <a href="#" class="signup" onClick="myFunction()" id="page2">Sign Up</a> -->
+                    <label class="heading">For the Love of Coding</label>
+                    <p class="para">CODEPRO is built with a vision to help other ProGrads host and review code, manage
+                        projects and collaborate alongside 1 million ProGrads.
+                        <br>
+                        <br>
+                        
+                        <br>
+                    </p>
+
+                    <p class="para1">
+                        <span id="star1" class="rating-icon fa fa-star"></span>
+                        <span id="star2" class="rating-icon fa fa-star"></span>
+                        <span id="star3" class="rating-icon fa fa-star"></span>
+                        <span id="star4" class="rating-icon fa fa-star"></span>
+                        <span id="star5" class="rating-icon fa fa-star"></span>
+                    </p>
+
+                    <div class="signupPage"></div>
+                    <label class="username login-box">USERNAME</label>
+                    <input type="text" class="usertext login-box" name="username" id="usertext"
+                        placeholder="Enter your username" />
+
+                    <label class="password login-box">PASSWORD</label>
+                    <input type="password" class="passwordtext login-box" name="password" id="passwordtext"
+                        placeholder="Enter your password" />
+
+                    <label class="custom-message login-box">MESSAGE</label>
+                    <input type="text" class="message-text login-box" name="email" id="emailtext"
+                        placeholder="What have you got to say?!!" />
+                    <div id="success-message" class="password">
+
+                    </div>
+
+                    <input type="button" class="submit login-box" id="submit" value="Login to Enter" />
+                </div>
+            </div>
+        </div>
+
+    </form>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+</body>
+
+</html>

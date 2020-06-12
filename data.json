@@ -1,0 +1,26 @@
+[{
+    "name": "thor",
+    "password": "foo",
+    "message": "No Message Yet",
+    "rating": ""
+}, {
+    "name": "ironman",
+    "password": "bar",
+    "message": "No Message Yet",
+    "rating": ""
+}, {
+    "name": "hulk",
+    "password": "baz",
+    "message": "No Message Yet",
+    "rating": ""
+}, {
+    "name": "spiderman",
+    "password": "foobar",
+    "message": "No Message Yet",
+    "rating": ""
+}, {
+    "name": "blackwidow",
+    "password": "barbaz",
+    "message": "No Message Yet",
+    "rating": ""
+}]
